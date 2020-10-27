@@ -1,0 +1,3 @@
+global:
+  swager:
+    enable: true

@@ -1,0 +1,10 @@
+apiVersion: v2
+name: release-helm
+description: betPawa main cahrt
+
+version: 10.88.0
+
+dependencies:
+  - name: messaging
+    version: "1.0.0"
+    repository: "file://../../Messaging/helm/messaging"
