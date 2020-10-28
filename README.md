@@ -1,7 +1,6 @@
 ```
-cd ./release-helm
-helm dependency update .
-helm package -d .deploy . 
-cr upload --owner mityi --git-repo helm-cr-test --package-path .deploy --token 
-cr index --owner mityi --git-repo helm-cr-test --package-path .deploy --index-path index.yaml --charts-repo https://github.com/mityi/helm-cr-test.git --token 
+helm dependency update ./release-helm
+helm package -d .deploy ./release-helm
+cr upload --owner mityi --git-repo helm-cr-test --package-path ./release-helm.deploy --token 
+cr index --owner mityi --git-repo helm-cr-test --package-path ./release-helm.deploy --index-path index.yaml --charts-repo https://github.com/mityi/helm-cr-test.git --token 
 ```
