@@ -2,7 +2,7 @@ apiVersion: v2
 name: release-helm
 description: betPawa main cahrt
 
-version: 10.95.0
+version: 10.96.0
 
 dependencies:
   - name: messaging
