@@ -1,0 +1,28 @@
+apiVersion: v1
+entries:
+  release-helm:
+  - apiVersion: v2
+    created: "2020-10-28T17:05:04.023402+02:00"
+    dependencies:
+    - name: messaging
+      repository: file://../../Messaging/helm/messaging
+      version: 1.0.0
+    description: betPawa main cahrt
+    digest: 00f775bae857f571b30e4cee07644a2d2b6c9ed2f7321e5d26a02d3b4f36daa8
+    name: release-helm
+    urls:
+    - https://github.com/mityi/helm-cr-test/releases/download/release-helm-10.94.0/release-helm-10.94.0.tgz
+    version: 10.94.0
+  - apiVersion: v2
+    created: "2020-10-28T16:48:46.917391+02:00"
+    dependencies:
+    - name: messaging
+      repository: file://../../Messaging/helm/messaging
+      version: 1.0.0
+    description: betPawa main cahrt
+    digest: b492800c1996d3fd2a7395327084b17dbdc5660b885a55e5325eb7735a9f4a46
+    name: release-helm
+    urls:
+    - https://github.com/mityi/helm-cr-test/releases/download/release-helm-10.93.0/release-helm-10.93.0.tgz
+    version: 10.93.0
+generated: "2020-10-28T16:48:46.64626+02:00"
